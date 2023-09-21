@@ -13,7 +13,10 @@ public class MonthOrganizer
       months.add("October");
       months.add("November");
       months.add("December");
-
-      //System.out.println(months);
+      months.add(2, "March");
+      months.add(5, "September");
+      months.add(6, "August");
+      months.add(2, "April");
+      System.out.println(months);
    }
 }

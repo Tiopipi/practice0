@@ -12,8 +12,13 @@ public class Meal
     }
 
     //Instance methods//
-   /* Complete the method makeItACombo */}
+    public void makeItACombo(){
+        this.name = this.name + " with fries and soda";
+        this.cost += 3;
+    }
 
-   /* Complete the method getBill */}
+    public String getBill(){
+        return this.name + ", $" + this.cost;
+    }
 
 }
