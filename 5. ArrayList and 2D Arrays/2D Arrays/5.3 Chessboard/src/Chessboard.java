@@ -11,9 +11,7 @@ public class Chessboard
             if ((i + j) % 2 == 0) {
                chessboard[i][j] = '\u25A1';
             }
-            else {
-               chessboard[i][j] = '\u25A0';
-            }
+            else {chessboard[i][j] = '\u25A0';}
          }
       }
       for (char row[]: chessboard) {
